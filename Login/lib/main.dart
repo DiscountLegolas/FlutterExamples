@@ -71,16 +71,16 @@ class LoggedOnPage extends StatelessWidget{
               child: Text.rich(
                 TextSpan(
                   text: 'Welcome Abroad ',
-                  children: <TextSpan>[TextSpan(text: usr.username,style:const TextStyle(fontStyle: FontStyle.italic,fontWeight: FontWeight.bold))]
+                  children: <TextSpan>[TextSpan(text: usr.username,style:const TextStyle(fontStyle: FontStyle.italic,fontWeight: FontWeight.bold,color: Colors.white))]
                 ),
-                style:const TextStyle(fontSize: 50.0),
+                style:const TextStyle(fontSize: 50.0,color: Colors.white),
               ),
               margin: const EdgeInsets.only(bottom: 50.0),
             ),
             // ignore: sized_box_for_whitespace
             Container(
               width: MediaQuery.of(context).size.width/3,
-              child: const Text('Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',style: TextStyle(height: 1.5),),
+              child: const Text('Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',style: TextStyle(height: 1.5,color: Colors.white),),
             )
           ],
         ),
